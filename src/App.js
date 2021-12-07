@@ -52,7 +52,7 @@ const App = () => {
         <div className="all-container">
           {allPokemons.map((pokemon, index) => (
             <PokeCart
-              id={pokemon.id}
+              id={index}
               name={pokemon.name}
               image={pokemon.sprites.other.dream_world.front_default}
               type={pokemon.types[0].type.name}
