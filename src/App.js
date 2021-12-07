@@ -56,7 +56,7 @@ const App = () => {
               name={pokemon.name}
               image={pokemon.sprites.other.dream_world.front_default}
               type={pokemon.types[0].type.name}
-              key={pokemon.id}
+              key={index}
             />
           ))}
         </div>
